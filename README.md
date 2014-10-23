@@ -1,23 +1,35 @@
-<RadioShark_PIC_Clock>
----------------------------------------------------------
+##GPRS Shield Suli
+[![Shield - GPRS Shield V2.0](http://www.seeedstudio.com/depot/images/product/GRPS%20SLD_02.jpg)](http://goo.gl/UC8DkO)
+GPRS Shield provide you a way to DIY your own **mobile phone**. You can use your GRPS Shield to dial a phone number or send a text message to your friend. Besides these, you can use it to access the network and view web pages. For more information, you can visit our [Wiki Page](http://goo.gl/U2I1d2)
+### Features
++ Compatible with standard Arduino and Arduino Mega
++ Selectable interface between hardware serial port and software serial port
++ Selectable interface between hardware serial port and software serial port
++ Support TCP/UDP protocols
++ Full control via AT commands set: Standard - GSM 07.07 & 07.05 and Enhanced - SIMCOM AT Commands
++ 2-in-1 headset jack
++ Convenient external SIM card holder
++ Low power consumption: 1.5mA(sleep mode)
++ 3V CR1220 Battery Holder Connetor
 
-[![WiFiBeeV2](http://www.seeedstudio.com/depot/images/product/wifi%20bee%20v2.jpg)](http://www.seeedstudio.com/depot/wifi-bee-v20-p-1637.html)
+### Applications
++ Call up and answer Call
++ Send SMS and read SMS
++ AT Command Test
++ TCP Connection Test 
 
-<It's a little clock for timming>
+### Getting Started
+Make sure that three libraries ([GPRS_Shield_Suli](https://github.com/Seeed-Studio/GPRS_Shield_Suli) —— GPRS Module Library, [SoftwareSerial](https://github.com/arduino/Arduino/tree/master/libraries/SoftwareSerial) —— we use software serial to communicate with GPRS module, [Suli_Arduino](https://github.com/Seeed-Studio/Suli)—— the Seeed Unified Libray interface) have been in your libraries folder. Then you can have a test with the sketches in example folder.
++ GPRS_Serial_Debug —— test GPRS module with AT commands.
++ GPRS_CallUp ——  give a call to someone.
++ GPRS_SendSMS —— send a message to someone.
++ GPRS_LoopHandle —— answer the call & read the message.
++ GPRS_TCPConnection —— build a TCP connection and read the content from the specified website. 
 
-### Usage:
-<库、软件的使用介绍：比如检出哪个文件夹或下载哪个zip包，放在哪个目录，include哪些头文件。
 
-若是比较复杂的软件，涉及到编译、安装的，在此说明编译环境要求、依赖库、编译命令、安装命令等。>
-
-<格式提示：**text**表示加粗文字，*text*表示斜体文字，<br>表示强制换行>
-
-For more information, please refer to [wiki page](<wiki url>).
-
-    
 ----
 
-This software is written by <your name @your_email.com> for [Seeed Technology Limited](http://www.seeed.cc) and is licensed under [The MIT License](http://opensource.org/licenses/mit-license.php). Check License.txt/LICENSE for the details of MIT license.<br>
+This software is written by lawliet zou (![](http://www.seeedstudio.com/wiki/images/f/f8/Email-lawliet.zou.jpg)) for [Seeed Technology Inc.](http://www.seeed.cc) and is licensed under [The MIT License](http://opensource.org/licenses/mit-license.php). Check License.txt/LICENSE for the details of MIT license.<br>
 
 Contributing to this software is warmly welcomed. You can do this basically by<br>
 [forking](https://help.github.com/articles/fork-a-repo), committing modifications and then [pulling requests](https://help.github.com/articles/using-pull-requests) (follow the links above<br>
@@ -26,4 +38,7 @@ Thanks for your contribution.
 
 Seeed is a hardware innovation platform for makers to grow inspirations into differentiating products. By working closely with technology providers of all scale, Seeed provides accessible technologies with quality, speed and supply chain knowledge. When prototypes are ready to iterate, Seeed helps productize 1 to 1,000 pcs using in-house engineering, supply chain management and agile manufacture forces. Seeed also team up with incubators, Chinese tech ecosystem, investors and distribution channels to portal Maker startups beyond.
 
-[![Analytics](https://ga-beacon.appspot.com/UA-46589105-3/<repository_name>)](https://github.com/igrigorik/ga-beacon)
+
+
+[![Analytics](https://ga-beacon.appspot.com/UA-46589105-3/GPRS_Shield_Suli)](https://github.com/igrigorik/ga-beacon)
+
