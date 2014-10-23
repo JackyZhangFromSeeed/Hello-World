@@ -1,15 +1,9 @@
-Hello-World
-===========
-
-This is my first repository on GitHub
-
-"<>"代表占位符，需要用你的表达替换，用英文。
-<库或软件的名称，下面一行短横线代表是中标题格式，请不要删除>
+<RadioShark_PIC_Clock>
 ---------------------------------------------------------
 
 [![WiFiBeeV2](http://www.seeedstudio.com/depot/images/product/wifi%20bee%20v2.jpg)](http://www.seeedstudio.com/depot/wifi-bee-v20-p-1637.html)
 
-<一段产品描述>
+<It's a little clock for timming>
 
 ### Usage:
 <库、软件的使用介绍：比如检出哪个文件夹或下载哪个zip包，放在哪个目录，include哪些头文件。
